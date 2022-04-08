@@ -95,6 +95,8 @@
 #include <netdb.h>
 #endif
 
+#define SVR_REUSEADDR
+
 /* constants -----------------------------------------------------------------*/
 
 #define TINTACT             200         /* period for stream active (ms) */
